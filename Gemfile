@@ -7,7 +7,7 @@ group :development, :test do
   gem 'pg'
   gem 'letter_opener'
   gem 'brakeman'
-  gem 'globalize', github: 'globalize/globalize'
+  gem "globalize", git: "https://github.com/globalize/globalize"
   gem 'rails-controller-testing'
   gem 'bcrypt'
   gem 'minitest-reporters'
